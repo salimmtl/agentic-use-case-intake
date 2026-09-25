@@ -1,0 +1,12 @@
+<botcomponent schemaname="sams_AgenticUseCaseIntake.file.agentictoolsglossarymd_Gl0s5a">
+  <componenttype>14</componenttype>
+  <description>This knowledge source searches information contained in agentic-tools-glossary.md</description>
+  <filedata mimetype="application/octet-stream">agentic-tools-glossary.md</filedata>
+  <iscustomizable>0</iscustomizable>
+  <name>agentic-tools-glossary.md</name>
+  <parentbotid>
+    <schemaname>sams_AgenticUseCaseIntake</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

@@ -1,0 +1,11 @@
+<botcomponent schemaname="sams_AgenticUseCaseIntake.tool.office365-users-get-my-profile_Pr0f1L">
+  <componenttype>9</componenttype>
+  <description>Returns the signed-in user's Microsoft 365 profile. Use it once at the start of an intake to get the submitter's work email (userPrincipalName, or mail if userPrincipalName is empty).</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Get my profile (V2)</name>
+  <parentbotid>
+    <schemaname>sams_AgenticUseCaseIntake</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

@@ -1,0 +1,14 @@
+<environmentvariabledefinition schemaname="sams_CreditsGuideUrl">
+  <defaultvalue>https://blue-hill-0cabcc90f.5.azurestaticapps.net/copilot-studio-credits-explainer-extended.html</defaultvalue>
+  <description default="Link to the Copilot Studio credits explainer.">
+    <label description="Link to the Copilot Studio credits explainer." languagecode="1033" />
+  </description>
+  <displayname default="Copilot Credits Guide URL">
+    <label description="Copilot Credits Guide URL" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000000</type>
+</environmentvariabledefinition>

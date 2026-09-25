@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "appId": null,
+  "appDisplayName": "Agentic Use Case Studio",
+  "region": "prod",
+  "environmentId": "<your-environment-id>",
+  "description": "Portfolio and intake experience for agentic use case submissions.",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {},
+  "databaseReferences": {
+    "default.cds": {
+      "dataSources": {
+        "agenticusecases": {
+          "entitySetName": "sams_usecases",
+          "logicalName": "sams_usecase"
+        },
+        "targetsystems": {
+          "entitySetName": "sams_usecasesystems",
+          "logicalName": "sams_usecasesystem"
+        }
+      },
+      "environmentVariableName": ""
+    }
+  }
+}

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{5f59790e-4aee-4ea6-8d6c-2d3b33e70198}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="General" id="{BEC85906-CFCE-40D7-A2BC-6DBADF3EE2D3}" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="Target system" id="{DDD7F674-911B-4C9E-9056-18EDB5585E76}" showlabel="true" showbar="false" columns="11">
+                  <labels>
+                    <label description="Target system" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8C083B12-04A5-4294-BE8B-5C87B27CB54D}" showlabel="true">
+                        <labels>
+                          <label description="System Name" languagecode="1033" />
+                        </labels>
+                        <control id="sams_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="sams_name" disabled="false" />
+                      </cell>
+                      <cell id="{09BEBBBE-61E8-400A-9946-261033446976}" showlabel="true">
+                        <labels>
+                          <label description="Use Case" languagecode="1033" />
+                        </labels>
+                        <control id="sams_usecaseid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="sams_usecaseid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6D9F236F-E812-4757-88CE-A5271A6814A2}" showlabel="true">
+                        <labels>
+                          <label description="System Type" languagecode="1033" />
+                        </labels>
+                        <control id="sams_systemtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="sams_systemtype" disabled="false" />
+                      </cell>
+                      <cell id="{B5DD05A0-D775-4B76-84A0-D5D2858424CE}" showlabel="true">
+                        <labels>
+                          <label description="Access" languagecode="1033" />
+                        </labels>
+                        <control id="sams_access" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="sams_access" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{53EE814B-45EB-4515-B50B-185D997613A9}" showlabel="true">
+                        <labels>
+                          <label description="Known Connector" languagecode="1033" />
+                        </labels>
+                        <control id="sams_connectoravailable" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="sams_connectoravailable" disabled="false" />
+                      </cell>
+                      <cell id="{6BC986E1-9574-484C-A21D-84D6FE691A18}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{38FA778F-7F24-4D66-AADA-44B4355E3B3A}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows />
+      </footer>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Target System" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

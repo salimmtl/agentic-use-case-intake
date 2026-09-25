@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="sams_agentictool" localizedName="Agentic Tool" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Agentic Tool" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="726410000" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Microsoft 365 Copilot" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410001" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Copilot Cowork" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410002" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Agent Builder (declarative agent)" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410003" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Copilot Studio - Standard harness" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410004" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Copilot Studio - GitHub Copilot harness" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410005" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Microsoft Foundry" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410006" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="No agent needed - Power Automate / workflow" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

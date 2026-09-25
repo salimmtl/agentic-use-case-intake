@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Role id="{5c5d7647-37b8-f111-aaae-7c1e5240ac7b}" name="Agentic Use Case Admin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsCustomizable>1</IsCustomizable>
+  <IsAutoAssigned>0</IsAutoAssigned>
+  <RolePrivileges>
+    <RolePrivilege name="prvAppendsams_UseCase" level="Global" />
+    <RolePrivilege name="prvAppendsams_UseCaseSystem" level="Global" />
+    <RolePrivilege name="prvAppendTosams_UseCase" level="Global" />
+    <RolePrivilege name="prvAppendTosams_UseCaseSystem" level="Global" />
+    <RolePrivilege name="prvAssignsams_UseCase" level="Global" />
+    <RolePrivilege name="prvAssignsams_UseCaseSystem" level="Global" />
+    <RolePrivilege name="prvCreatesams_UseCase" level="Global" />
+    <RolePrivilege name="prvCreatesams_UseCaseSystem" level="Global" />
+    <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvDeletesams_UseCase" level="Global" />
+    <RolePrivilege name="prvDeletesams_UseCaseSystem" level="Global" />
+    <RolePrivilege name="prvReadPluginAssembly" level="Global" />
+    <RolePrivilege name="prvReadPluginType" level="Global" />
+    <RolePrivilege name="prvReadsams_UseCase" level="Global" />
+    <RolePrivilege name="prvReadsams_UseCaseSystem" level="Global" />
+    <RolePrivilege name="prvReadSdkMessage" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStep" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStepImage" level="Global" />
+    <RolePrivilege name="prvReadSharePointData" level="Global" />
+    <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvSharesams_UseCase" level="Global" />
+    <RolePrivilege name="prvSharesams_UseCaseSystem" level="Global" />
+    <RolePrivilege name="prvWritesams_UseCase" level="Global" />
+    <RolePrivilege name="prvWritesams_UseCaseSystem" level="Global" />
+    <RolePrivilege name="prvWriteSharePointData" level="Global" />
+  </RolePrivileges>
+</Role>

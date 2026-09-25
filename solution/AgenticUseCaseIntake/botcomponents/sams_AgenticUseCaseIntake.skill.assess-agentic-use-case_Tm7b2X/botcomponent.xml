@@ -1,0 +1,11 @@
+<botcomponent schemaname="sams_AgenticUseCaseIntake.skill.assess-agentic-use-case_Tm7b2X">
+  <componenttype>9</componenttype>
+  <description>Recommends the best Microsoft agentic tool and an alternative, estimates the Copilot Credit band, and scores complexity, confidence, value and feasibility for a confirmed agentic use case idea.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>assess-agentic-use-case</name>
+  <parentbotid>
+    <schemaname>sams_AgenticUseCaseIntake</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

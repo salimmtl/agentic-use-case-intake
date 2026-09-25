@@ -1,0 +1,13 @@
+<environmentvariabledefinition schemaname="sams_IntakeAgentUrl">
+  <description default="Link that opens the published intake agent (Teams or other channel). Set after publishing the agent.">
+    <label description="Link that opens the published intake agent (Teams or other channel). Set after publishing the agent." languagecode="1033" />
+  </description>
+  <displayname default="Intake Agent URL">
+    <label description="Intake Agent URL" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000000</type>
+</environmentvariabledefinition>

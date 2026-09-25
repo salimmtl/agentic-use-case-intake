@@ -1,0 +1,5 @@
+mcs.metadata:
+  componentName: intake-interview
+  description: "Runs the plain-language intake interview for a new agentic use case idea: gets the submitter's email, asks an open question, then only the missing profile questions (6-8 max), and plays back a summary."
+  schemaName: sams_AgenticUseCaseIntake.skill.intake-interview_Kq4w9Z
+kind: InlineAgentSkill

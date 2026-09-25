@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="sams_capabilities" localizedName="Agent Capabilities" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Agent Capabilities" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="726410000" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Answer questions" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410001" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Draft or summarize content" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410002" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Take actions in systems" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410003" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Run on its own when something happens" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410004" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Work through multi-step tasks with judgment" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

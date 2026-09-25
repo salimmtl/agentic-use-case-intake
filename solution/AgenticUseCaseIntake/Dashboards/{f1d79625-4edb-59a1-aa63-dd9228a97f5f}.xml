@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName description="Agentic Use Case Overview" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Pipeline of agentic use case ideas: status, tools, credit bands and systems." languagecode="1033" />
+  </Descriptions>
+  <FormId>{f1d79625-4edb-59a1-aa63-dd9228a97f5f}</FormId>
+  <IsCustomizable>1</IsCustomizable>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="dashboard">
+      <form>
+        <tabs>
+          <tab name="Overview" id="{76ED31B2-09F4-46EE-8082-F0FBFEC156A6}" verticallayout="true" showlabel="false">
+            <labels>
+              <label description="Overview" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section name="Overview" showlabel="false" showbar="false" columns="111" id="{59947768-E678-4AEF-8AD2-A7CCC69C38AF}">
+                    <labels>
+                      <label description="Overview" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell id="{D0C53F85-C394-4748-B78A-94876E1E725C}" showlabel="false" rowspan="12" colspan="1" auto="false">
+                          <labels>
+                            <label description="Use Cases by Status" languagecode="1033" />
+                          </labels>
+                          <control id="sams_usecase_8cb4896d" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                            <parameters>
+                              <ViewId>{B8FC720C-2B26-46BB-8848-6B4F84A87682}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>sams_usecase</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <VisualizationId>{A832A520-D608-51C4-AE52-FF9C2FA76FC3}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>10</RecordsPerPage>
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell id="{8C55A7FE-20AD-42AF-82B9-500910285964}" showlabel="false" rowspan="12" colspan="1" auto="false">
+                          <labels>
+                            <label description="Use Cases by Recommended Tool" languagecode="1033" />
+                          </labels>
+                          <control id="sams_usecase_6b56bf9b" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                            <parameters>
+                              <ViewId>{B8FC720C-2B26-46BB-8848-6B4F84A87682}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>sams_usecase</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <VisualizationId>{B7AC3CF6-E1B8-5826-93FE-8609E6E8BEC0}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>10</RecordsPerPage>
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell id="{884885E5-62BE-492A-8A27-5F173D428721}" showlabel="false" rowspan="12" colspan="1" auto="false">
+                          <labels>
+                            <label description="Use Cases by Credit Band" languagecode="1033" />
+                          </labels>
+                          <control id="sams_usecase_78417080" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                            <parameters>
+                              <ViewId>{B8FC720C-2B26-46BB-8848-6B4F84A87682}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>sams_usecase</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <VisualizationId>{9205F395-8433-564E-A9F9-F11FA1916ADA}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>10</RecordsPerPage>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row>
+                        <cell id="{8990954A-1C47-4544-A6F4-7F6B5DB5E908}" showlabel="false" rowspan="12" colspan="1" auto="false">
+                          <labels>
+                            <label description="Use Cases by Audience" languagecode="1033" />
+                          </labels>
+                          <control id="sams_usecase_684cd232" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                            <parameters>
+                              <ViewId>{B8FC720C-2B26-46BB-8848-6B4F84A87682}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>sams_usecase</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <VisualizationId>{CCFD1EB5-772A-50F2-82FD-29AA3B9DF92E}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>10</RecordsPerPage>
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell id="{D946238D-E825-4DA1-9770-7269BD60EBDC}" showlabel="false" rowspan="12" colspan="1" auto="false">
+                          <labels>
+                            <label description="Submissions per Week" languagecode="1033" />
+                          </labels>
+                          <control id="sams_usecase_c03fc595" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                            <parameters>
+                              <ViewId>{B8FC720C-2B26-46BB-8848-6B4F84A87682}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>sams_usecase</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <VisualizationId>{CB4E8EEF-0B2F-5A6A-8A6A-E4D55F52CAE1}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>10</RecordsPerPage>
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell id="{9F6C2FA9-09A9-4611-A38E-92B10C24E9FA}" showlabel="false" rowspan="12" colspan="1" auto="false">
+                          <labels>
+                            <label description="Target Systems by Type" languagecode="1033" />
+                          </labels>
+                          <control id="sams_usecasesystem_dbe2014a" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                            <parameters>
+                              <ViewId>{B31670C4-8EC3-4E56-97C0-974AC69DB703}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>sams_usecasesystem</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <VisualizationId>{8ECEDF50-A463-5FC2-AC83-DAC45EB82C21}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>10</RecordsPerPage>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row>
+                        <cell id="{C21D10FA-E020-41D3-82BB-71A1E606E4C6}" showlabel="false" rowspan="12" colspan="3" auto="false">
+                          <labels>
+                            <label description="New Submissions" languagecode="1033" />
+                          </labels>
+                          <control id="sams_usecase_58f7a167" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                            <parameters>
+                              <ViewId>{1B286045-4CC9-520D-97CA-54BF1AFA8A61}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>sams_usecase</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <VisualizationId />
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>10</RecordsPerPage>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</Dashboard>

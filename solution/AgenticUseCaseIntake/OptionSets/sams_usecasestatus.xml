@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="sams_usecasestatus" localizedName="Use Case Status" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Use Case Status" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="726410000" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Draft" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410001" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Submitted" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410002" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="In review" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410003" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Needs info" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410004" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Approved" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410005" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="In build" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410006" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Live" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410007" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Declined" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

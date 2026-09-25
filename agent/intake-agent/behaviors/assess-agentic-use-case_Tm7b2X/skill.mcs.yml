@@ -1,0 +1,5 @@
+mcs.metadata:
+  componentName: assess-agentic-use-case
+  description: "Recommends the best Microsoft agentic tool and an alternative, estimates the Copilot Credit band, and scores complexity, confidence, value and feasibility for a confirmed agentic use case idea."
+  schemaName: sams_AgenticUseCaseIntake.skill.assess-agentic-use-case_Tm7b2X
+kind: InlineAgentSkill

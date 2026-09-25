@@ -1,0 +1,29 @@
+# Dependencies and build output
+node_modules/
+dist/
+*.tsbuildinfo
+__pycache__/
+
+# Environment-specific Power Platform config — never commit these
+power.config.json
+power.config.json.bak
+.env
+deploymentSettings.json
+.power/tmp/
+
+# Tooling state
+.mcs/
+.maker-workspace/
+.flowagent/
+.powerapps-cli/
+.playwright-mcp/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

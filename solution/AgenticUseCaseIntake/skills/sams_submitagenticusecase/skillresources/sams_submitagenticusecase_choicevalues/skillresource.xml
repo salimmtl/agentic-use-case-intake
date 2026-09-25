@@ -1,0 +1,5 @@
+<skillresource uniquename="sams_submitagenticusecase_choicevalues">
+  <filecontent mimetype="application/octet-stream">choice-values.md</filecontent>
+  <filename>choice-values.md</filename>
+  <iscustomizable>1</iscustomizable>
+</skillresource>

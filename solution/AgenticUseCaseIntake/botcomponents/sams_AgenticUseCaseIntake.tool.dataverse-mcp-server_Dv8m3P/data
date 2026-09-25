@@ -1,0 +1,17 @@
+kind: McpTool
+authMode: Invoker
+connectionReference: sams_AgenticUseCaseIntake.cr.shared_commondataserviceforapps.shared-commondataser-6d1e7f2a
+connectorId: /providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps
+operationId: InvokeMCP
+allowedTools:
+  - read_query
+  - create_record
+  - update_record
+  - search
+  - upsert_skill
+  - create_skill_resource
+  - describe
+  - search_data
+  - init_file_upload
+  - commit_file_upload
+  - file_download

@@ -1,0 +1,8 @@
+mcs.metadata:
+  componentName: Get my profile (V2)
+  description: Returns the signed-in user's Microsoft 365 profile. Use it once at the start of an intake to get the submitter's work email (userPrincipalName, or mail if userPrincipalName is empty).
+kind: ConnectorTool
+authMode: "Invoker"
+connectionReference: "sams_agenticusecaseintake.cr.shared_office365users.profile"
+connectorId: "/providers/Microsoft.PowerApps/apis/shared_office365users"
+operationId: "MyProfile_V2"

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_sams_usecase" />
+  <EntityRelationship Name="business_unit_sams_usecasesystem" />
+  <EntityRelationship Name="lk_sams_usecase_createdby" />
+  <EntityRelationship Name="lk_sams_usecase_modifiedby" />
+  <EntityRelationship Name="lk_sams_usecasesystem_createdby" />
+  <EntityRelationship Name="lk_sams_usecasesystem_modifiedby" />
+  <EntityRelationship Name="owner_sams_usecase" />
+  <EntityRelationship Name="owner_sams_usecasesystem" />
+  <EntityRelationship Name="sams_UseCase_UseCaseSystem" />
+  <EntityRelationship Name="team_sams_usecase" />
+  <EntityRelationship Name="team_sams_usecasesystem" />
+  <EntityRelationship Name="user_sams_usecase" />
+  <EntityRelationship Name="user_sams_usecasesystem" />
+</EntityRelationships>

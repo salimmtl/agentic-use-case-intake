@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>agentic_use_case_hub_3fd1b32e</SiteMapUniqueName>
+  <EnableCollapsibleGroups>False</EnableCollapsibleGroups>
+  <ShowHome>True</ShowHome>
+  <ShowPinned>True</ShowPinned>
+  <ShowRecents>True</ShowRecents>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="sams_area_intake" ShowGroups="true">
+      <Titles>
+        <Title LCID="1033" Title="Agentic Use Cases" />
+      </Titles>
+      <Group Id="sams_grp_overview" IsProfile="false">
+        <Titles>
+          <Title LCID="1033" Title="Overview" />
+        </Titles>
+        <SubArea Id="sams_sa_dashboard" DefaultDashboard="{F1D79625-4EDB-59A1-AA63-DD9228A97F5F}" Url="/workplace/home_dashboards.aspx" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true">
+          <Titles>
+            <Title LCID="1033" Title="Dashboard" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="sams_grp_intake" IsProfile="false">
+        <Titles>
+          <Title LCID="1033" Title="Intake" />
+        </Titles>
+        <SubArea Id="sams_sa_all" Entity="sams_usecase">
+          <Titles>
+            <Title LCID="1033" Title="All Use Cases" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="sams_sa_new" Url="/main.aspx?pagetype=entitylist&amp;etn=sams_usecase&amp;viewid=%7b1b286045-4cc9-520d-97ca-54bf1afa8a61%7d&amp;viewtype=1039">
+          <Titles>
+            <Title LCID="1033" Title="New Submissions" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="sams_sa_review" Url="/main.aspx?pagetype=entitylist&amp;etn=sams_usecase&amp;viewid=%7bc5ca4af8-a19f-5f0e-b046-8650bab93939%7d&amp;viewtype=1039">
+          <Titles>
+            <Title LCID="1033" Title="Awaiting Review" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="sams_sa_needsinfo" Url="/main.aspx?pagetype=entitylist&amp;etn=sams_usecase&amp;viewid=%7bf4f7749d-18ae-5b88-a58d-fbb186a7f3f1%7d&amp;viewtype=1039">
+          <Titles>
+            <Title LCID="1033" Title="Needs Info" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="sams_grp_portfolio" IsProfile="false">
+        <Titles>
+          <Title LCID="1033" Title="Portfolio" />
+        </Titles>
+        <SubArea Id="sams_sa_approved" Url="/main.aspx?pagetype=entitylist&amp;etn=sams_usecase&amp;viewid=%7be7533634-7ae4-5ebb-94b8-dec9cd357e05%7d&amp;viewtype=1039">
+          <Titles>
+            <Title LCID="1033" Title="Approved Portfolio" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="sams_sa_priority" Url="/main.aspx?pagetype=entitylist&amp;etn=sams_usecase&amp;viewid=%7b9d9b8ee1-b134-552e-b9f7-8171d66c79e4%7d&amp;viewtype=1039">
+          <Titles>
+            <Title LCID="1033" Title="By Priority" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="sams_grp_reference" IsProfile="false">
+        <Titles>
+          <Title LCID="1033" Title="Reference" />
+        </Titles>
+        <SubArea Id="sams_sa_systems" Entity="sams_usecasesystem">
+          <Titles>
+            <Title LCID="1033" Title="Target Systems" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Agentic Use Case Hub" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="sams_predictability" localizedName="Process Predictability" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Process Predictability" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="726410000" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Same steps every time" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410001" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Mostly the same, some exceptions" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410002" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Varies a lot case by case" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410003" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Not sure" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

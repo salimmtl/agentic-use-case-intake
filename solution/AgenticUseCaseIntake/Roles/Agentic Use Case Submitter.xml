@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Role id="{13e3c836-37b8-f111-aaae-7c1e52408682}" name="Agentic Use Case Submitter" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsCustomizable>1</IsCustomizable>
+  <IsAutoAssigned>0</IsAutoAssigned>
+  <RolePrivileges>
+    <RolePrivilege name="prvAppendsams_UseCase" level="Basic" />
+    <RolePrivilege name="prvAppendsams_UseCaseSystem" level="Basic" />
+    <RolePrivilege name="prvAppendTosams_UseCase" level="Basic" />
+    <RolePrivilege name="prvAppendTosams_UseCaseSystem" level="Basic" />
+    <RolePrivilege name="prvCreatesams_UseCase" level="Basic" />
+    <RolePrivilege name="prvCreatesams_UseCaseSystem" level="Basic" />
+    <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvReadPluginAssembly" level="Global" />
+    <RolePrivilege name="prvReadPluginType" level="Global" />
+    <RolePrivilege name="prvReadsams_UseCase" level="Basic" />
+    <RolePrivilege name="prvReadsams_UseCaseSystem" level="Basic" />
+    <RolePrivilege name="prvReadSdkMessage" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStep" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStepImage" level="Global" />
+    <RolePrivilege name="prvReadSharePointData" level="Global" />
+    <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvWriteSharePointData" level="Global" />
+  </RolePrivileges>
+</Role>

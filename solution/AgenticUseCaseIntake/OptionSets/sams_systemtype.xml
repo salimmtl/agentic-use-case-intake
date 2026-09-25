@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="sams_systemtype" localizedName="System Type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="System Type" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="726410000" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Microsoft 365 app" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410001" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Dataverse or Dynamics 365" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410002" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="SAP" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410003" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="ServiceNow" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410004" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Salesforce" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410005" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Custom API or database" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410006" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Website or portal" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="726410007" ExternalValue="" IsHidden="0">
+      <labels>
+        <label description="Other" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

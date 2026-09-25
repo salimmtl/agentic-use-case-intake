@@ -1,0 +1,11 @@
+<botcomponent schemaname="sams_AgenticUseCaseIntake.skill.intake-interview_Kq4w9Z">
+  <componenttype>9</componenttype>
+  <description>Runs the plain-language intake interview for a new agentic use case idea: gets the submitter's email, asks an open question, then only the missing profile questions (6-8 max), and plays back a summary.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>intake-interview</name>
+  <parentbotid>
+    <schemaname>sams_AgenticUseCaseIntake</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

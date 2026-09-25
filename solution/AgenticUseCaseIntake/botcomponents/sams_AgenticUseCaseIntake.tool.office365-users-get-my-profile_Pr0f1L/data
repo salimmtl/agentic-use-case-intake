@@ -1,0 +1,5 @@
+kind: ConnectorTool
+authMode: "Invoker"
+connectionReference: "sams_agenticusecaseintake.cr.shared_office365users.profile"
+connectorId: "/providers/Microsoft.PowerApps/apis/shared_office365users"
+operationId: "MyProfile_V2"

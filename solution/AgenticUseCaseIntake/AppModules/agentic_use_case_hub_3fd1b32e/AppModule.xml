@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>agentic_use_case_hub_3fd1b32e</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="entity" />
+    <AppModuleComponent type="1" schemaName="entity" />
+    <AppModuleComponent type="26" id="{0bb81807-f4e9-53f3-8def-20eb8513d914}" />
+    <AppModuleComponent type="26" id="{eb2701cc-3827-490a-8eb5-374915883357}" />
+    <AppModuleComponent type="26" id="{1b286045-4cc9-520d-97ca-54bf1afa8a61}" />
+    <AppModuleComponent type="26" id="{b8fc720c-2b26-46bb-8848-6b4f84a87682}" />
+    <AppModuleComponent type="26" id="{625c0c93-8efe-5e35-90ac-76377b7dd223}" />
+    <AppModuleComponent type="26" id="{9d9b8ee1-b134-552e-b9f7-8171d66c79e4}" />
+    <AppModuleComponent type="26" id="{c5ca4af8-a19f-5f0e-b046-8650bab93939}" />
+    <AppModuleComponent type="26" id="{44cbda03-a510-5099-a439-93edc11d6a0a}" />
+    <AppModuleComponent type="26" id="{b31670c4-8ec3-4e56-97c0-974ac69db703}" />
+    <AppModuleComponent type="26" id="{e7533634-7ae4-5ebb-94b8-dec9cd357e05}" />
+    <AppModuleComponent type="26" id="{f4f7749d-18ae-5b88-a58d-fbb186a7f3f1}" />
+    <AppModuleComponent type="59" id="{ccfd1eb5-772a-50f2-82fd-29aa3b9df92e}" />
+    <AppModuleComponent type="59" id="{b7ac3cf6-e1b8-5826-93fe-8609e6e8bec0}" />
+    <AppModuleComponent type="59" id="{8ecedf50-a463-5fc2-ac83-dac45eb82c21}" />
+    <AppModuleComponent type="59" id="{cb4e8eef-0b2f-5a6a-8a6a-e4d55f52cae1}" />
+    <AppModuleComponent type="59" id="{9205f395-8433-564e-a9f9-f11fa1916ada}" />
+    <AppModuleComponent type="59" id="{a832a520-d608-51c4-ae52-ff9c2fa76fc3}" />
+    <AppModuleComponent type="60" id="{5f59790e-4aee-4ea6-8d6c-2d3b33e70198}" />
+    <AppModuleComponent type="60" id="{ebb63a12-582c-4e93-be19-448377aeb19d}" />
+    <AppModuleComponent type="60" id="{f1d79625-4edb-59a1-aa63-dd9228a97f5f}" />
+    <AppModuleComponent type="62" schemaName="agentic_use_case_hub_3fd1b32e" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Agentic Use Case Hub" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Back-office hub to triage and manage agentic use case ideas." languagecode="1033" />
+  </Descriptions>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="AppChannel">
+      <iscustomizable>1</iscustomizable>
+      <value>1</value>
+    </appsetting>
+  </appsettings>
+</AppModule>

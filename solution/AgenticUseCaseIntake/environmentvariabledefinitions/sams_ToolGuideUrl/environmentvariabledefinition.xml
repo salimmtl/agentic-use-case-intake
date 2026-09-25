@@ -1,0 +1,14 @@
+<environmentvariabledefinition schemaname="sams_ToolGuideUrl">
+  <defaultvalue>https://blue-hill-0cabcc90f.5.azurestaticapps.net/which-agentic-tool.html</defaultvalue>
+  <description default="Link to the 'Which agentic tool' guide.">
+    <label description="Link to the 'Which agentic tool' guide." languagecode="1033" />
+  </description>
+  <displayname default="Agentic Tool Guide URL">
+    <label description="Agentic Tool Guide URL" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000000</type>
+</environmentvariabledefinition>

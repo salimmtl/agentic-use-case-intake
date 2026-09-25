@@ -1,0 +1,11 @@
+<botcomponent schemaname="sams_AgenticUseCaseIntake.tool.dataverse-mcp-server_Dv8m3P">
+  <componenttype>9</componenttype>
+  <description>Reads and saves agentic use cases in Dataverse and retrieves the business skills 'Submit agentic use case' and 'Look up my agentic use cases'. Use describe on skills/&lt;name&gt; first, then create_record and read_query on sams_usecase and sams_usecasesystem only.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Dataverse MCP Server</name>
+  <parentbotid>
+    <schemaname>sams_AgenticUseCaseIntake</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

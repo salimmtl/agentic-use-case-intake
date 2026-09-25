@@ -1,0 +1,546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ebb63a12-582c-4e93-be19-448377aeb19d}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="Idea" id="{91A18190-75C1-49A6-8F85-3AB116CA6EC3}" expanded="true" showlabel="true">
+          <labels>
+            <label description="Idea" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="Summary" id="{F59A5AE3-96C8-49B9-A734-4DBB02E013E3}" showlabel="true" showbar="false" columns="11">
+                  <labels>
+                    <label description="Summary" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7A5D9781-07B1-4BBD-A2FD-FAF4FBC9BDBA}" showlabel="true">
+                        <labels>
+                          <label description="Title" languagecode="1033" />
+                        </labels>
+                        <control id="sams_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="sams_name" disabled="false" />
+                      </cell>
+                      <cell id="{C3C37C64-BC01-4B42-92DE-A1B0F83A17B4}" showlabel="true">
+                        <labels>
+                          <label description="Use Case ID" languagecode="1033" />
+                        </labels>
+                        <control id="sams_usecasenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="sams_usecasenumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6D559265-942F-4C3B-8A25-AA182998F1C1}" showlabel="true">
+                        <labels>
+                          <label description="Submitter Email" languagecode="1033" />
+                        </labels>
+                        <control id="sams_submitteremail" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="sams_submitteremail" disabled="false" />
+                      </cell>
+                      <cell id="{9BA4B55A-BA4C-4FB0-BAF4-0D4F6DAA9E36}" showlabel="true">
+                        <labels>
+                          <label description="Urgency" languagecode="1033" />
+                        </labels>
+                        <control id="sams_urgency" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="sams_urgency" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="The idea" id="{B629093C-3D2F-4ADF-A83E-19866CD3F422}" showlabel="true" showbar="false" columns="1">
+                  <labels>
+                    <label description="The idea" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{F739F567-5C44-4080-AA9B-F85B16A1F281}" showlabel="true">
+                        <labels>
+                          <label description="Problem Statement" languagecode="1033" />
+                        </labels>
+                        <control id="sams_problemstatement" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="sams_problemstatement" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1F199F84-91DD-4D0E-AB75-0FC5E5824D08}" showlabel="true">
+                        <labels>
+                          <label description="Desired Outcome" languagecode="1033" />
+                        </labels>
+                        <control id="sams_desiredoutcome" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="sams_desiredoutcome" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{685F35BB-4210-4153-9791-ED9C9C4DF68F}" showlabel="true">
+                        <labels>
+                          <label description="Current Process" languagecode="1033" />
+                        </labels>
+                        <control id="sams_currentprocess" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="sams_currentprocess" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{E1BE5D07-B361-46FE-AEFA-C6BB023728DF}" showlabel="true">
+                        <labels>
+                          <label description="Example Request or Trigger" languagecode="1033" />
+                        </labels>
+                        <control id="sams_examplerequest" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="sams_examplerequest" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{43B9B294-2538-4F4D-AB29-A54B2C60549C}" showlabel="true">
+                        <labels>
+                          <label description="Hours Saved per Month" languagecode="1033" />
+                        </labels>
+                        <control id="sams_hourssavedpermonth" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="sams_hourssavedpermonth" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Profile" id="{2CE64229-B04F-42DE-A115-F4B35AC6DD72}" expanded="true" showlabel="true">
+          <labels>
+            <label description="Profile" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="Who and how often" id="{DFBB6849-ABAC-4317-BF6B-9DBC91205A0A}" showlabel="true" showbar="false" columns="11">
+                  <labels>
+                    <label description="Who and how often" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{D58256F0-8348-442C-8386-AD5FEF9C61B0}" showlabel="true">
+                        <labels>
+                          <label description="Audience" languagecode="1033" />
+                        </labels>
+                        <control id="sams_audience" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="sams_audience" disabled="false" />
+                      </cell>
+                      <cell id="{266BA6D5-3FAF-46C7-9FD4-31A67E33FEB6}" showlabel="true">
+                        <labels>
+                          <label description="Number of Users" languagecode="1033" />
+                        </labels>
+                        <control id="sams_usersband" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="sams_usersband" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{B4E8DC18-E3B5-488F-BD9A-9B82CF38EDDF}" showlabel="true">
+                        <labels>
+                          <label description="Usage Frequency" languagecode="1033" />
+                        </labels>
+                        <control id="sams_usagefrequency" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="sams_usagefrequency" disabled="false" />
+                      </cell>
+                      <cell id="{7CAC6BC4-68B3-490E-A6EE-61D5E9034A6B}" showlabel="true">
+                        <labels>
+                          <label description="Where Users Will Use It" languagecode="1033" />
+                        </labels>
+                        <control id="sams_usagechannel" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="sams_usagechannel" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0BF2FCA9-78BF-4F88-8F78-458DDF6B4796}" showlabel="true">
+                        <labels>
+                          <label description="Users Have M365 Copilot" languagecode="1033" />
+                        </labels>
+                        <control id="sams_copilotlicence" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="sams_copilotlicence" disabled="false" />
+                      </cell>
+                      <cell id="{12BCB727-1D14-485A-A173-0282CE41345A}" showlabel="true">
+                        <labels>
+                          <label description="Data Sensitivity" languagecode="1033" />
+                        </labels>
+                        <control id="sams_sensitivity" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="sams_sensitivity" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="What it must do" id="{BDCD07CE-B70E-4656-A8AD-91D6A137BE4C}" showlabel="true" showbar="false" columns="11">
+                  <labels>
+                    <label description="What it must do" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{B561D295-5707-4CCE-8CD0-B5380C335412}" showlabel="true">
+                        <labels>
+                          <label description="What It Must Do" languagecode="1033" />
+                        </labels>
+                        <control id="sams_capabilities" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="sams_capabilities" disabled="false" />
+                      </cell>
+                      <cell id="{FF23CDD8-A8AD-4810-8081-97A83DB5062B}" showlabel="true">
+                        <labels>
+                          <label description="Data Sources" languagecode="1033" />
+                        </labels>
+                        <control id="sams_datasources" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="sams_datasources" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{CEB5E383-3D4B-4B3A-B6A7-D273D43292D6}" showlabel="true">
+                        <labels>
+                          <label description="Process Predictability" languagecode="1033" />
+                        </labels>
+                        <control id="sams_predictability" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="sams_predictability" disabled="false" />
+                      </cell>
+                      <cell id="{F310250E-8FC2-44CC-A8B9-93F5BE8E502A}" showlabel="true">
+                        <labels>
+                          <label description="Document Heavy" languagecode="1033" />
+                        </labels>
+                        <control id="sams_documentheavy" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="sams_documentheavy" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Recommendation" id="{83760053-91E9-4985-BF6D-8F6C7C0F1D1F}" expanded="true" showlabel="true">
+          <labels>
+            <label description="Recommendation" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="Recommended tool" id="{309A9217-62C2-42EA-83BA-76E5AF29252B}" showlabel="true" showbar="false" columns="11">
+                  <labels>
+                    <label description="Recommended tool" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{F6E1FAB2-145E-46C6-8C7D-38F56FCB00E6}" showlabel="true">
+                        <labels>
+                          <label description="Recommended Tool" languagecode="1033" />
+                        </labels>
+                        <control id="sams_recommendedtool" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="sams_recommendedtool" disabled="false" />
+                      </cell>
+                      <cell id="{815B999A-D13E-482B-8146-FE3974BD8D6C}" showlabel="true">
+                        <labels>
+                          <label description="Alternative Tool" languagecode="1033" />
+                        </labels>
+                        <control id="sams_alternativetool" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="sams_alternativetool" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{B8B3F5CB-2733-47FB-B33A-8896E0A2C271}" showlabel="true">
+                        <labels>
+                          <label description="Complexity" languagecode="1033" />
+                        </labels>
+                        <control id="sams_complexity" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="sams_complexity" disabled="false" />
+                      </cell>
+                      <cell id="{7576904A-28BA-49F8-B48C-18442028F3DF}" showlabel="true">
+                        <labels>
+                          <label description="Confidence" languagecode="1033" />
+                        </labels>
+                        <control id="sams_confidence" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="sams_confidence" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Rationale" id="{050D9D6D-9966-4288-90D1-D79CF3895931}" showlabel="true" showbar="false" columns="1">
+                  <labels>
+                    <label description="Rationale" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{35331547-86F5-4250-AA81-CB6DAD0B9C92}" showlabel="true">
+                        <labels>
+                          <label description="Rationale" languagecode="1033" />
+                        </labels>
+                        <control id="sams_rationale" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="sams_rationale" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5D9671BA-1E5D-4D0B-9CC0-80B0437FD458}" showlabel="true">
+                        <labels>
+                          <label description="Assumptions and Open Questions" languagecode="1033" />
+                        </labels>
+                        <control id="sams_assumptions" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="sams_assumptions" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Credit estimate" id="{619E5B19-FBFF-42B4-B9D3-8FF462AAED06}" showlabel="true" showbar="false" columns="11">
+                  <labels>
+                    <label description="Credit estimate" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{CDA5226F-AE39-4398-A598-549AEECCFC7B}" showlabel="true">
+                        <labels>
+                          <label description="Credit Band" languagecode="1033" />
+                        </labels>
+                        <control id="sams_creditband" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="sams_creditband" disabled="false" />
+                      </cell>
+                      <cell id="{F01C2204-A620-432E-8390-CE39B1C27C68}" showlabel="true">
+                        <labels>
+                          <label description="Estimated Monthly Credits" languagecode="1033" />
+                        </labels>
+                        <control id="sams_estimatedmonthlycredits" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="sams_estimatedmonthlycredits" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Credit drivers" id="{9D1B462E-F60D-4BEB-A4C2-58E2A4C5030D}" showlabel="false" showbar="false" columns="1">
+                  <labels>
+                    <label description="Credit drivers" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{B0E3F1B3-7ABF-4C07-B687-7065BFD9CAC7}" showlabel="true">
+                        <labels>
+                          <label description="Credit Drivers" languagecode="1033" />
+                        </labels>
+                        <control id="sams_creditdrivers" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="sams_creditdrivers" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Scores" id="{E0497736-C315-401E-A016-E659C9F9D450}" showlabel="true" showbar="false" columns="11">
+                  <labels>
+                    <label description="Scores" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{05055474-CA23-49C8-9CED-8247659AB35E}" showlabel="true">
+                        <labels>
+                          <label description="Value Score" languagecode="1033" />
+                        </labels>
+                        <control id="sams_valuescore" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="sams_valuescore" disabled="false" />
+                      </cell>
+                      <cell id="{9D67E118-367F-4C24-BC06-A9058D843E70}" showlabel="true">
+                        <labels>
+                          <label description="Feasibility Score" languagecode="1033" />
+                        </labels>
+                        <control id="sams_feasibilityscore" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="sams_feasibilityscore" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{20A01C9A-42A0-4C7C-9D46-0AAE9EEC1020}" showlabel="true">
+                        <labels>
+                          <label description="Priority Score" languagecode="1033" />
+                        </labels>
+                        <control id="sams_priorityscore" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="sams_priorityscore" disabled="false" />
+                      </cell>
+                      <cell id="{9BB60999-578C-488B-8F7B-E58D1D5920A8}" showlabel="true">
+                        <labels>
+                          <label description="Rubric Version" languagecode="1033" />
+                        </labels>
+                        <control id="sams_rubricversion" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="sams_rubricversion" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Review" id="{C0ADF95C-F9D6-4D61-8DC9-159D4086FC0A}" expanded="true" showlabel="true">
+          <labels>
+            <label description="Review" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="Decision" id="{3FC70CFC-3DFE-407D-A7B9-D71F60ADD5B6}" showlabel="true" showbar="false" columns="11">
+                  <labels>
+                    <label description="Decision" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{A6E233C0-D489-4736-9B00-701CF1D28577}" showlabel="true">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="sams_status" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="sams_status" disabled="false" />
+                      </cell>
+                      <cell id="{23680468-0A2B-4105-86CF-B3A659CA3178}" showlabel="true">
+                        <labels>
+                          <label description="Final Tool" languagecode="1033" />
+                        </labels>
+                        <control id="sams_finaltool" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="sams_finaltool" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8949FE6B-D555-45A4-9FB6-A59AD9F6E9E2}" showlabel="true">
+                        <labels>
+                          <label description="Reviewed By" languagecode="1033" />
+                        </labels>
+                        <control id="sams_reviewedby" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="sams_reviewedby" disabled="false" />
+                      </cell>
+                      <cell id="{E0B32BC0-7FBC-4723-A2B0-72B8F23188A2}" showlabel="true">
+                        <labels>
+                          <label description="Decision Date" languagecode="1033" />
+                        </labels>
+                        <control id="sams_decisiondate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="sams_decisiondate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Notes" id="{DFE808AA-F54D-4CA2-A442-D41020DF61D4}" showlabel="true" showbar="false" columns="1">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{BF2B62A9-EE3F-401A-B2FE-266A0A558976}" showlabel="true">
+                        <labels>
+                          <label description="Information Needed" languagecode="1033" />
+                        </labels>
+                        <control id="sams_infoneeded" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="sams_infoneeded" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{40D58E81-7EB3-4DA1-9381-00513AD64245}" showlabel="true">
+                        <labels>
+                          <label description="Reviewer Notes" languagecode="1033" />
+                        </labels>
+                        <control id="sams_reviewernotes" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="sams_reviewernotes" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Target systems" id="{97F2475C-D823-42E4-8524-C62AEA5625D3}" expanded="true" showlabel="true">
+          <labels>
+            <label description="Target systems" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="Target systems" id="{E7473E5B-D8AD-4F92-B14D-AED9078C0145}" showlabel="false" showbar="false" columns="1">
+                  <labels>
+                    <label description="Target systems" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3FCA3963-A0B6-4A38-91B5-4B5CD4FC6053}" showlabel="false" rowspan="8" colspan="1" auto="false">
+                        <labels>
+                          <label description="Target Systems" languagecode="1033" />
+                        </labels>
+                        <control id="TargetSystems" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{EB2701CC-3827-490A-8EB5-374915883357}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>sams_UseCase_UseCaseSystem</RelationshipName>
+                            <TargetEntityType>sams_usecasesystem</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Conversation" id="{64E0076D-DC84-4D7F-A77A-92FED663C00F}" expanded="false" showlabel="true">
+          <labels>
+            <label description="Conversation" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="Intake conversation" id="{C587E6CB-90AE-4232-A33F-61D3A37FC9EB}" showlabel="true" showbar="false" columns="1">
+                  <labels>
+                    <label description="Intake conversation" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{B857F0F5-BA6D-4335-93F5-975033D11174}" showlabel="true">
+                        <labels>
+                          <label description="Conversation Summary" languagecode="1033" />
+                        </labels>
+                        <control id="sams_conversationsummary" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="sams_conversationsummary" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{995F28EB-D4BF-48FF-B8E5-4349D95771DC}" showlabel="true">
+                        <labels>
+                          <label description="Conversation ID" languagecode="1033" />
+                        </labels>
+                        <control id="sams_conversationid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="sams_conversationid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Timeline" id="{03DFED7A-181D-48B9-83D8-D68B05A9674E}" showlabel="false" showbar="false" columns="1">
+                  <labels>
+                    <label description="Timeline" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{29ED0847-9B2E-4B24-A10A-3294635DC81B}" showlabel="false" colspan="1" auto="false" rowspan="12">
+                        <labels>
+                          <label description="Timeline" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                          <parameters>
+                            <DefaultTabId>ActivitiesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{D6C25785-75AF-4CEF-8F4F-DC8EA1817B21}" celllabelposition="Top" columns="1111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{06071728-C5C9-4131-870D-129B75116BCF}" showlabel="true">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="header_sams_status" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="sams_status" disabled="false" />
+            </cell>
+            <cell id="{6ECBC534-B44A-4F85-A59C-AB246BB5C815}" showlabel="true">
+              <labels>
+                <label description="Recommended Tool" languagecode="1033" />
+              </labels>
+              <control id="header_sams_recommendedtool" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="sams_recommendedtool" disabled="false" />
+            </cell>
+            <cell id="{C61D354E-E7BF-4BAB-B502-CE0C14701C10}" showlabel="true">
+              <labels>
+                <label description="Credit Band" languagecode="1033" />
+              </labels>
+              <control id="header_sams_creditband" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="sams_creditband" disabled="false" />
+            </cell>
+            <cell id="{018B8B1E-00E0-4F09-BB3A-FE2FDA0C89C9}" showlabel="true">
+              <labels>
+                <label description="Submitter Email" languagecode="1033" />
+              </labels>
+              <control id="header_sams_submitteremail" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="sams_submitteremail" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{910BF0FA-A972-4884-B27C-98B8C2232D37}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows />
+      </footer>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Agentic Use Case" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

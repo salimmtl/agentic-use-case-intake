@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{0abcc078-f750-4f51-943a-58f4dae9e912}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="sams_name" select="1" icon="1" preview="1">
+        <row name="result" id="sams_usecasesystemid">
+          <cell name="sams_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="sams_usecasesystem">
+          <attribute name="sams_usecasesystemid" />
+          <attribute name="sams_name" />
+          <attribute name="createdon" />
+          <order attribute="sams_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Target Systems" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

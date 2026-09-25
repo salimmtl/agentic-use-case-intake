@@ -1,0 +1,8 @@
+<botcomponent_connectionreferenceset>
+  <botcomponent_connectionreference botcomponentid.schemaname="sams_AgenticUseCaseIntake.tool.dataverse-mcp-server_Dv8m3P" connectionreferenceid.connectionreferencelogicalname="sams_AgenticUseCaseIntake.cr.shared_commondataserviceforapps.shared-commondataser-6d1e7f2a">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_connectionreference>
+  <botcomponent_connectionreference botcomponentid.schemaname="sams_AgenticUseCaseIntake.tool.office365-users-get-my-profile_Pr0f1L" connectionreferenceid.connectionreferencelogicalname="sams_agenticusecaseintake.cr.shared_office365users.profile">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_connectionreference>
+</botcomponent_connectionreferenceset>

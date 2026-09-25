@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b31670c4-8ec3-4e56-97c0-974ac69db703}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="sams_name" select="1" icon="1" preview="1">
+        <row name="result" id="sams_usecasesystemid">
+          <cell name="sams_name" width="220" />
+          <cell name="sams_systemtype" width="160" />
+          <cell name="sams_access" width="120" />
+          <cell name="sams_connectoravailable" width="120" />
+          <cell name="sams_usecaseid" width="240" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="sams_usecasesystem">
+          <attribute name="sams_name" />
+          <attribute name="sams_systemtype" />
+          <attribute name="sams_access" />
+          <attribute name="sams_connectoravailable" />
+          <attribute name="sams_usecaseid" />
+          <attribute name="sams_usecasesystemid" />
+          <order attribute="createdon" descending="true" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Target Systems" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>sams_agenticusecasestudio_ddc69</Name>
+  <AppVersion>2026-09-25T16:13:27Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>0.0.0.0</CreatedByClientVersion>
+  <MinClientVersion>0.0.0.0</MinClientVersion>
+  <Tags>{}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(255,255,255,1)</BackgroundColor>
+  <DisplayName>Agentic Use Case Studio</DisplayName>
+  <Description>Portfolio and intake experience for agentic use case submissions.</Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified","environmentVariableName":""}},"dataSources":{"agenticusecases":{"entitySetName":"sams_usecases","logicalName":"sams_usecase"},"targetsystems":{"entitySetName":"sams_usecasesystems","logicalName":"sams_usecasesystem"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>4</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"sams_usecase","componenttype":1},{"logicalname":"sams_usecasesystem","componenttype":1}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <CodeAppPackageUris>
+    <CodeAppPackageUri>/CanvasApps/sams_agenticusecasestudio_ddc69_CodeAppPackages/index.html_ContentType_text/html</CodeAppPackageUri>
+    <CodeAppPackageUri>/CanvasApps/sams_agenticusecasestudio_ddc69_CodeAppPackages/assets/index-BoIoE32Z.js_ContentType_application/javascript</CodeAppPackageUri>
+    <CodeAppPackageUri>/CanvasApps/sams_agenticusecasestudio_ddc69_CodeAppPackages/assets/index-CPZd8EJJ.css_ContentType_text/css</CodeAppPackageUri>
+  </CodeAppPackageUris>
+</CanvasApp>

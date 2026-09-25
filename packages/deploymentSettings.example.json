@@ -1,0 +1,78 @@
+{
+  "EnvironmentVariables": [
+    {
+      "SchemaName": "sams_CreditsGuideUrl",
+      "Value": "",
+      "DefaultValue": "https://blue-hill-0cabcc90f.5.azurestaticapps.net/copilot-studio-credits-explainer-extended.html",
+      "Name": {
+        "Default": "Copilot Credits Guide URL",
+        "ByLcid": {
+          "1033": "Copilot Credits Guide URL"
+        }
+      },
+      "TypeId": 100000000,
+      "Description": {
+        "Default": "Link to the Copilot Studio credits explainer.",
+        "ByLcid": {
+          "1033": "Link to the Copilot Studio credits explainer."
+        }
+      },
+      "IsRequired": false
+    },
+    {
+      "SchemaName": "sams_IntakeAgentUrl",
+      "Value": "",
+      "Name": {
+        "Default": "Intake Agent URL",
+        "ByLcid": {
+          "1033": "Intake Agent URL"
+        }
+      },
+      "TypeId": 100000000,
+      "Description": {
+        "Default": "Link that opens the published intake agent (Teams or other channel). Set after publishing the agent.",
+        "ByLcid": {
+          "1033": "Link that opens the published intake agent (Teams or other channel). Set after publishing the agent."
+        }
+      },
+      "IsRequired": false
+    },
+    {
+      "SchemaName": "sams_ToolGuideUrl",
+      "Value": "",
+      "DefaultValue": "https://blue-hill-0cabcc90f.5.azurestaticapps.net/which-agentic-tool.html",
+      "Name": {
+        "Default": "Agentic Tool Guide URL",
+        "ByLcid": {
+          "1033": "Agentic Tool Guide URL"
+        }
+      },
+      "TypeId": 100000000,
+      "Description": {
+        "Default": "Link to the 'Which agentic tool' guide.",
+        "ByLcid": {
+          "1033": "Link to the 'Which agentic tool' guide."
+        }
+      },
+      "IsRequired": false
+    }
+  ],
+  "ConnectionReferences": [
+    {
+      "LogicalName": "sams_AgenticUseCaseIntake.cr.shared_commondataserviceforapps.shared-commondataser-6d1e7f2a",
+      "ConnectionId": "",
+      "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+    },
+    {
+      "LogicalName": "sams_agenticusecaseintake.cr.shared_office365users.profile",
+      "ConnectionId": "",
+      "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_office365users"
+    }
+  ],
+  "CopilotAgents": [
+    {
+      "AadGroupId": "00000000-0000-0000-0000-000000000000",
+      "Name": "sams_AgenticUseCaseIntake"
+    }
+  ]
+}
