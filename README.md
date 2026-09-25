@@ -12,8 +12,7 @@
 > - **Data**: records created by the intake agent and the apps, and anything the agent does through
 >   the Dataverse MCP server with the signed-in user's permissions
 > - **Copilot Credit consumption**: the intake agent runs on the Copilot Studio **GitHub Copilot
->   harness**, which consumes Copilot Credits for building, testing, evaluating and **every
->   conversation, for every user**
+>   harness**, which consumes Copilot Credits
 > - **Database capacity**: Dataverse storage used by use cases, target systems and conversation summaries
 > - **Recommendations**: tool recommendations and credit bands are **indicative planning estimates,
 >   not quotes, licensing advice or commitments**
